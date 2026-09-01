@@ -77,22 +77,35 @@ nav a:hover {
 
 .hero {
     min-height: 650px;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     text-align: center;
-
     padding: 80px 20px;
 
-    background: linear-gradient(
-        135deg,
-        #fff0f6,
-        #f5edff
-    );
+    background:
+        radial-gradient(
+            circle at 10% 20%,
+            rgba(255, 180, 210, 0.55),
+            transparent 32%
+        ),
+        radial-gradient(
+            circle at 90% 15%,
+            rgba(190, 180, 255, 0.50),
+            transparent 35%
+        ),
+        radial-gradient(
+            circle at 20% 85%,
+            rgba(170, 220, 255, 0.45),
+            transparent 35%
+        ),
+        radial-gradient(
+            circle at 85% 85%,
+            rgba(255, 220, 180, 0.45),
+            transparent 35%
+        ),
+        #fffafc;
 }
-
 .hero-contenido {
     max-width: 850px;
 }
