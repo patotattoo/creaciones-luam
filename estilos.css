@@ -322,8 +322,8 @@ footer p {
 
     header {
         flex-direction: column;
+        gap: 10px;
         padding: 10px 15px;
-        gap: 8px;
     }
 
     .logo img {
@@ -332,13 +332,13 @@ footer p {
     }
 
     nav {
-        gap: 10px;
+        gap: 12px;
         flex-wrap: wrap;
         justify-content: center;
     }
 
     nav a {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .hero {
@@ -365,4 +365,6 @@ footer p {
     .productos-grid {
         grid-template-columns: 1fr;
     }
+
 }
+
